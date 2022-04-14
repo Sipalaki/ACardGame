@@ -1,0 +1,97 @@
+{
+  "default": {
+    "cd000": {
+      "id": 0,
+      "name": "ghost", 
+      "picked": "被抽出：抽到此牌的一方降低10点生命",
+      "discarded": "被打出：无",
+      "discardeds": "被成倍打出：无"
+    }
+  },
+  
+    "knight":{
+      "kn1": {
+        "id": 1,
+        "name": "strike",
+        "picked": "被抽出：抽到此牌的一方受到2点伤害",
+        "discarded": "被打出：对方收到5点伤害",
+        "discardeds": "被成倍打出：对方收到15点伤害"
+      },
+  
+        "kn2":{
+            "id":2,
+            "name":"herb",
+            "picked":"被抽出：抽到此牌的一方恢复1点血量",
+            "discarded":"被打出：己方恢复3点血量",
+            "discardeds":"被成倍打出：己方恢复9点血量"
+        },
+        "kn3":{
+            "id":3,
+            "name":"defend",
+            "picked":"被抽出：被抽走此牌的一方获得1点护甲",
+            "discarded":"被打出：己方获得4点护甲",
+            "discardeds":"被成倍打出：己方获得12点护甲"
+        },
+        "kn4":{
+            "id":4,
+            "name":"short_sword",
+            "picked":"被抽出：无",
+            "discarded":"被打出：己方攻击造成伤害+1",
+            "discardeds":"被成倍打出：己方攻击造成伤害+3"
+        },
+        "kn5":{
+            "id":5,
+            "name":"weakness_strike",
+            "picked":"被抽出：被抽走此牌的一方每有一张打击牌，抽走此牌的一方就受到1点伤害",
+            "discarded":"被打出：己方手牌中每有一张打击牌，对方就受到2点伤害",
+            "discardeds":"被成倍打出：己方手牌中每有一张打击牌，对方就受到5点伤害"
+        },
+        "kn6":{
+            "id":6,
+            "name":"targe",
+            "picked":"被抽出：无",
+            "discarded":"被打出：己方收到攻击伤害-1",
+            "discardeds":"被成倍打出：己方收到攻击伤害-3"
+        }
+
+    },
+    "enemy":{
+        "em1":{
+            "id":101,
+            "name":"dash",
+            "picked":"被抽出：抽到此牌的一方受到2点伤害",
+            "discarded":"被打出：对方收到4点伤害",
+            "discardeds":"被成倍打出：对方收到12点伤害"
+        },
+        "em2":{
+            "id":102,
+            "name":"roll",
+            "picked":"被抽出：无",
+            "discarded":"被打出：己方获得3点护甲",
+            "discardeds":"被成倍打出：己方获得12点护甲"
+        }
+    },
+    "environment":{
+        "en1":{
+            "id":501,
+            "name":"mountain_road",
+            "picked":"被抽出：无",
+            "discarded":"被打出：无",
+            "discardeds":"被成倍打出：无"
+        },
+        "en2":{
+            "id":502,
+            "name":"pebble",
+            "picked":"被抽出：抽到此牌的一方获得1点护甲",
+            "discarded":"被打出：对方收到2点伤害",
+            "discardeds":"被成倍打出：对方收到6点伤害"
+        },
+        "en3":{
+            "id":503,
+            "name":"mushroom",
+            "picked":"被抽出：被抽走此牌的一方获得1点中毒",
+            "discarded":"被打出：己方恢复2点血量",
+            "discardeds":"被成倍打出：对方获得4点中毒"
+        }
+    }
+}
